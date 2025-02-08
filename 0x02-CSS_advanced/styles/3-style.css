@@ -1,6 +1,4 @@
-html {
-    scroll-behavior: smooth;
-}
+/* adding variables */
 
 :root {
     --color-primary: #d73953;
@@ -11,6 +9,10 @@ html {
     --text-color: var(--color-black);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--text-color);
 }
@@ -19,15 +21,14 @@ a {
     color: var(--text-color);
 }
 
-/* Reset section-tagline and card-category to use color-primary */
-.section-tagline {
-    color: var(--color-primary);
+.visually-hidden {
+    display: none;
 }
 
 .card-category {
     color: var(--color-primary);
 }
 
-.visually-hidden {
-    display: none;
+.section-tagline {
+    color: var(--color-primary);
 }
